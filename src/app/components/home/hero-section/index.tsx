@@ -8,12 +8,12 @@ const index = () => {
                     <div className="flex flex-col gap-4 md:gap-7 max-w-2xl">
                         <div>
                             <div className="flex items-center gap-8">
-                                <h1>I'm Sruthi</h1>
+                                <h1>Soy Sergio</h1>
                                 <div className="wave">
                                 <Image src={"/images/home/banner/wave-icon.svg"} alt="wave-icon" width={62} height={62} className=""/>
                                 </div>
                             </div>
-                            <h1>UI/UX Designer</h1>
+                            <h1>Tecnico IT/Diseñador Jr.</h1>
                         </div>
                         <p className="text-secondary font-normal max-w-md xl:max-w-xl">Estamos en resideño de esta web</p>
                     </div>
