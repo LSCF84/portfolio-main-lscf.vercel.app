@@ -9,12 +9,39 @@ const contactBar = {
       icon: "/images/icon/mail-icon.svg",
       link: "mailto:l.sergio.camacho.fernandez@gmail.com"
     },
-     {
-      type: "website",
-      label: "lscf84.github.io",
-      icon: "/images/icon/web-icon.svg",
-      link: "www.lscf84.github.io"
-    }
+ 
+const menuData = {
+    // 1. Cambiamos el tipo para que el componente sepa que debe renderizar un menú (dropdown).
+    type: "dropdown", 
+    
+    // 2. Cambiamos la etiqueta principal que se mostrará en la barra de navegación.
+    label: "Webs", 
+    
+    // 3. Mantenemos el ícono, que ahora representará a todo el menú.
+    icon: "/images/icon/web-icon.svg", 
+    
+    // 4. Se elimina el 'link' directo. En su lugar, usamos 'subitems' para los enlaces desplegables.
+    subitems: [ 
+        {
+            // Sub-opción 1: El enlace original.
+            type: "link",
+            label: "Mi GitHub",
+            link: "https://www.lscf84.github.io"
+        },
+        {
+            // Sub-opción 2: Un ejemplo de otro enlace.
+            type: "link",
+            label: "Portfolio",
+            link: "https://www.mi-portfolio.com" 
+        },
+        {
+            // Sub-opción 3: Puedes añadir tantos como necesites.
+            type: "link",
+            label: "Blog Técnico",
+            link: "https://www.mi-blog.dev"
+        }
+    ]
+};
   ],
   socialItems: [
        {
