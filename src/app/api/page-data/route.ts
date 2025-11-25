@@ -43,65 +43,56 @@ const educationData = {
   ],
   skills: [
     {
-      name: "Azure",
+      name: "AWS",
       icon: "/images/home/education-skill/AmazonAWS.png",
       rating: 3
     },
     {
-      name: "Photoshop",
-      icon: "/images/home/education-skill/photoshop-icon.svg",
-      rating: 5
-    },
-    {
-      name: "Sketch",
-      icon: "/images/home/education-skill/sketch-icon.svg",
-      rating: 4
-    },
-    {
-      name: "Adobe XD",
-      icon: "/images/home/education-skill/adobe-icon.svg",
-      rating: 4
-    },
-    {
-      name: "Framer",
-      icon: "/images/home/education-skill/framer-icon.svg",
-      rating: 5
-    },
-    {
-      name: "Invasion",
-      icon: "/images/home/education-skill/invision-icon.svg",
+      name: "Azure",
+      icon: "/images/home/education-skill/Azure.png",
       rating: 3
+    },
+    {
+      name: "Python",
+      icon: "/images/home/education-skill/Python.png",
+      rating: 5
+    },
+    {
+      name: "Ubuntu",
+      icon: "/images/home/education-skill/Ubuntu.png",
+      rating: 4
+    },
+    {
+      name: "Jira",
+      icon: "/images/home/education-skill/jira.jpg",
+      rating: 5
+    },
+    {
+      name: "Cisco",
+      icon: "/images/home/education-skill/cisco.png",
+      rating: 4
     }
   ]
 }
 
 const contactLinks = {
   socialLinks: [
-    {
-      title: "Dribble",
-      href: "/"
-    },
-    {
-      title: "Facebook",
-      href: "/"
+       {
+      title: "Github",
+      href: "https://github.com/LSCF84"
     },
     {
       title: "LinkedIn",
-      href: "/"
+      href: "https://www.linkedin.com/in/luis-sergio-camacho-fernandez-a49209141/"
     },
   ],
   contactInfo: [
     {
       type: "email",
-      label: "hello@imsruthi.com",
-      link: "mailto:hello@imsruthi.com"
+      label: "l.sergio.camacho.fernandez@gmail.com",
+      link: "mailto:l.sergio.camacho.fernandez@gmail.com"
     },
-    {
-      type: "phone",
-      label: "+901 5588 2500",
-      link: "tel:+90155882500"
-    }
-  ]
+    ]
 }
 
 
