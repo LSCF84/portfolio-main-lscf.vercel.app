@@ -1,7 +1,7 @@
 import React from 'react';
 
 const ExperienceSec = () => {
-    const professionalExperience = [
+    const experiences = [
     {
         year: "Nov 2020 – Mar 2025",
         title: "Técnico IT Nivel 3 → Nivel 4",
