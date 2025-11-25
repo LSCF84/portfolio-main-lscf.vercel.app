@@ -128,7 +128,7 @@ const Contact = () => {
                                 {submitted &&
                                     <div className="flex items-center gap-2">
                                         <Image src={"/images/icon/success-icon.svg"} alt="success-icon" width={30} height={30} />
-                                        <p className="text-secondary">Great!!! Email has been Successfully Sent. We will get in touch asap.</p>
+                                        <p className="text-secondary">¡Genial! El correo electrónico se ha enviado correctamente. Nos pondremos en contacto contigo lo antes posible.</p>
                                     </div>
                                 }
                                 <button type="submit" className="relative overflow-hidden cursor-pointer w-fit py-2 sm:py-3 md:py-5 px-4 sm:px-5 md:px-7 border border-primary rounded-full group">
