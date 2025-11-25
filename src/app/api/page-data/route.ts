@@ -29,23 +29,23 @@ const contactBar = {
 const educationData = {
   education: [
     {
-      title: "Lipsum Collage - 2010",
-      description: "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form Koramangala collage."
+      title: " I.E.S Condestable Álvaro de Luna, Illescas - 1998 - 2002",
+      description: "Educación Secundaria Obligatoria."
     },
     {
-      title: "Master Diploma - 2012",
-      description: "Combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable."
+      title: " I.E.S Satafi, Getafe - 2003 - 2005",
+      description: "FPGM Equipos Electrónicos de Consumo."
     },
     {
-      title: "Master in User Experience - 2014",
-      description: "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration."
+      title: "FPGS Desarrollo de Aplicaciones Multiplataforma  - 2019 - Actualmente",
+      description: "FPGS Desarrollo de Aplicaciones Multiplataforma."
     }
   ],
   skills: [
     {
-      name: "Figma",
-      icon: "/images/home/education-skill/figma-icon.svg",
-      rating: 5
+      name: "Azure",
+      icon: "/images/home/education-skill/AmazonAWS.png",
+      rating: 3
     },
     {
       name: "Photoshop",
