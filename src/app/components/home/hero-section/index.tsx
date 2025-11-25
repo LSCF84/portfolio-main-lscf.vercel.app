@@ -15,7 +15,7 @@ const index = () => {
                             </div>
                             <h1>Tecnico IT/Diseñador Jr.</h1>
                         </div>
-                        <p className="text-secondary font-normal max-w-md xl:max-w-xl">Estamos en resideño de esta web</p>
+                        <p className="text-secondary font-normal max-w-md xl:max-w-xl">Estamos en re-diseño de esta web</p>
                     </div>
                     <Image src={"/images/home/banner/banner-img.png"} alt="banner-img" width={685} height={650} className="block lg:hidden" />
                 </div>
