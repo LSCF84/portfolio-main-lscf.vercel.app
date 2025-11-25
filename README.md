@@ -1,36 +1,98 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🌐 Portfolio Personal de LSCF84
 
-## Getting Started
+> "Donde la pasión por el desarrollo se encuentra con la creatividad."
 
-First, run the development server:
+Este repositorio alberga mi **Portfolio Personal**, una colección viva de mis proyectos, habilidades y experiencia profesional. Sirve como mi tarjeta de presentación digital, mostrando mi capacidad para desarrollar soluciones web y de software de principio a fin.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🌟 Acerca de este Portfolio
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Este sitio web está diseñado para mostrar mis mejores trabajos, las tecnologías con las que estoy familiarizado y mi trayectoria como desarrollador.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### 🎯 Características Principales
 
-## Learn More
+* **Proyectos Destacados:** Una galería de los proyectos más relevantes con enlaces a sus repositorios y demos funcionales.
+* **Sección "Acerca de Mí":** Una introducción a mi experiencia, educación y filosofía de trabajo.
+* **Habilidades Técnicas:** Un resumen de las tecnologías y herramientas que domino.
+* **Diseño Responsivo:** Completamente optimizado para verse bien en cualquier dispositivo (móvil, tablet y escritorio).
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🛠️ Tecnologías Utilizadas
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Este proyecto ha sido construido utilizando las siguientes tecnologías (ajusta esta lista según lo que realmente hayas usado):
 
-## Deploy on Vercel
+**Frontend:**
+* **[RELLENAR: Ej. React / Vue.js / Vanilla JS]**
+* **[RELLENAR: Ej. HTML5 & CSS3]**
+* **Tailwind CSS** (Según el código que proporcionaste)
+* **Bootstrap Icons** (Según el código que proporcionaste)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+**Despliegue y Hosting:**
+* **[RELLENAR: Ej. Netlify / Vercel / GitHub Pages]**
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+**Otras Herramientas:**
+* Git / GitHub
+* **[RELLENAR: Ej. Herramientas de build, como Webpack o Vite]**
+
+---
+
+## 🚀 Puesta en Marcha (Instalación Local)
+
+Para clonar y ejecutar este proyecto en tu entorno local, sigue estos pasos.
+
+### Requisitos Previos
+
+* Node.js (si utilizas un framework como React/Vue/Angular)
+* Git
+
+### Pasos
+
+1.  **Clonar el repositorio:**
+    ```bash
+    git clone [https://github.com/LSCF84/Portfolio.git](https://github.com/LSCF84/Portfolio.git)
+    ```
+
+2.  **Acceder al directorio:**
+    ```bash
+    cd Portfolio
+    ```
+
+3.  **Instalar dependencias (si aplica):**
+    ```bash
+    npm install 
+    # o
+    yarn install
+    ```
+
+4.  **Iniciar el servidor de desarrollo:**
+    ```bash
+    npm run dev
+    # o
+    npm start
+    ```
+
+El portfolio estará disponible en `http://localhost:[RELLENAR PUERTO]`.
+
+---
+
+## 🔗 Enlaces
+
+* **Demo en Vivo:** **`[RELLENAR URL DEL SITIO WEB EN PRODUCCIÓN]`**
+* **Mi Perfil de GitHub:** [https://github.com/LSCF84](https://github.com/LSCF84)
+
+---
+
+## 📬 Contacto
+
+Si tienes alguna pregunta, oportunidad de colaboración o simplemente quieres saludar, no dudes en contactarme:
+
+* **GitHub:** [@LSCF84](https://github.com/LSCF84)
+* **Correo Electrónico:** l.sergio.camacho.fernandez@gmail.com (Según tu código)
+
+---
+
+## 📝 Licencia
+
+Este proyecto está bajo la licencia **[RELLENAR: Ej. MIT, GPL, Unlicensed, etc.]**.
