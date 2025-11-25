@@ -79,7 +79,6 @@ El portfolio estará disponible en `http://localhost:[RELLENAR PUERTO]`.
 
 ## 🔗 Enlaces
 
-* **Demo en Vivo:** **`[RELLENAR URL DEL SITIO WEB EN PRODUCCIÓN]`**
 * **Mi Perfil de GitHub:** [https://github.com/LSCF84](https://github.com/LSCF84)
 
 ---
