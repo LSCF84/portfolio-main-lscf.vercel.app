@@ -5,7 +5,7 @@ const contactBar = {
   contactItems: [
     {
       type: "email",
-      label: "l.sergio.camacho.fernandez@gmail.com",
+      label: "Email",
       icon: "/images/icon/mail-icon.svg",
       link: "mailto:l.sergio.camacho.fernandez@gmail.com"
     },
