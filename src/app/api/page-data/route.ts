@@ -13,7 +13,7 @@ const contactBar = {
       type: "website",
       label: "portfolio 1",
       icon: "/images/icon/web-icon.svg",
-      link: "www.lscf84.github.io"
+      link: "https://lscf84.github.io"
     },
      {
       type: "website",
