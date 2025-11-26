@@ -11,19 +11,19 @@ const contactBar = {
     },
      {
       type: "website",
-      label: "portfolio 1",
+      label: "Portfolio 1",
       icon: "/images/icon/web-icon.svg",
       link: "https://lscf-central.vercel.app/"
     },
      {
       type: "website",
-      label: "portfolio 2",
+      label: "Portfolio 2",
       icon: "/images/icon/web-icon.svg",
       link: "https://jrdev-lscf.vercel.app/"
     },
  {
       type: "website",
-      label: "portfolio 3",
+      label: "Portfolio 3",
       icon: "/images/icon/web-icon.svg",
       link: "https://portfolio-websteel.vercel.app/"
     }
