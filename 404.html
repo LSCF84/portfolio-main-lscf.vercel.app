@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>404 | ¡Ups! Página Perdida</title>
+    <!-- Carga de Tailwind CSS --><script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Variables y configuración base: Colores claros con acentos naranjas */
+        :root {
+            --primary-text: #1a1a1a;    /* Texto principal oscuro */
+            --secondary-text: #555555;  /* Texto secundario gris */
+            --accent-orange: #ff5722;   /* Naranja brillante para acentos (Tu marca) */
+            --bg-light: #ffffff;       /* Fondo blanco */
+            --border-light: #e0e0e0;    /* Borde gris claro */
+        }
+
+        /* Configuración de Tailwind para usar la fuente Inter y colores personalizados */
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'brand-accent': 'var(--accent-orange)',
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'], 
+                    },
+                }
+            }
+        }
+
+        /* Animación de la "señal de error" (opcional: le da vida al icono) */
+        @keyframes shake {
+            0% { transform: translate(1px, 1px) rotate(0deg); }
+            10% { transform: translate(-1px, -2px) rotate(-1deg); }
+            20% { transform: translate(-3px, 0px) rotate(1deg); }
+            30% { transform: translate(3px, 2px) rotate(0deg); }
+            40% { transform: translate(1px, -1px) rotate(1deg); }
+            50% { transform: translate(-1px, 2px) rotate(-1deg); }
+            60% { transform: translate(-3px, 1px) rotate(0deg); }
+            70% { transform: translate(3px, 1px) rotate(-1deg); }
+            80% { transform: translate(-1px, -1px) rotate(1deg); }
+            90% { transform: translate(1px, 2px) rotate(0deg); }
+            100% { transform: translate(1px, -2px) rotate(-1deg); }
+        }
+        .animate-shake-slow {
+            animation: shake 5s infinite;
+        }
+    </style>
+</head>
+
+<body class="bg-[--bg-light] text-[--primary-text] font-sans min-h-screen flex items-center justify-center p-4 antialiased">
+
+    <!-- Contenedor Principal (Divertido) -->
+    <div class="max-w-xl w-full text-center p-8 md:p-12 rounded-xl border border-[--border-light] bg-[--bg-light] shadow-lg">
+        
+        <!-- Icono/SVG Divertido con tu color de acento -->
+        <div class="flex justify-center mb-6">
+             <!-- Icono de "Página no encontrada" o "Cara de Asombro/Pérdida" -->
+             <svg class="w-24 h-24 text-brand-accent animate-shake-slow" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"></path>
+            </svg>
+        </div>
+
+        <!-- Mensaje de Humor -->
+        <h3 class="text-xl md:text-2xl font-semibold mb-4 text-[--secondary-text]">
+            ¡Oops! Parece que la página se ha tomado unas vacaciones.
+        </h3>
+
+        <!-- Código de Error Grande -->
+        <h1 class="text-[6rem] md:text-[9rem] font-extrabold leading-none text-[--accent-orange] mb-4">
+            404
+        </h1>
+
+        <!-- Mensaje Principal -->
+        <h2 class="text-3xl md:text-5xl font-bold mb-6 text-[--primary-text] tracking-wide">
+            RUTA DESCONOCIDA
+        </h2>
+
+        <!-- Descripción -->
+        <p class="text-[--secondary-text] mb-10 text-lg md:text-xl">
+            No te preocupes, esto es solo un pequeño error de navegación. Volvamos a la base de operaciones.
+        </p>
+
+        <!-- Botón de Retorno -->
+        <a href="/" 
+           class="inline-block px-8 py-3 text-lg font-semibold uppercase tracking-wider 
+                  bg-[--accent-orange] text-white border-2 border-[--accent-orange] 
+                  rounded-lg transition-colors duration-300 
+                  shadow-md hover:bg-opacity-90 hover:shadow-lg
+                  focus:outline-none focus:ring-4 focus:ring-[--accent-orange] focus:ring-opacity-50">
+            Volver al Inicio
+        </a>
+
+        <!-- Pie de página sutil -->
+        <div class="mt-12 text-[--secondary-text] text-sm tracking-widest">
+            (El servidor jura que no fue su culpa)
+        </div>
+
+    </div>
+
+</body>
+</html>
