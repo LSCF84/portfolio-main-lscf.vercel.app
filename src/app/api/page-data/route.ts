@@ -13,7 +13,7 @@ const contactBar = {
       type: "website",
       label: "Portfolio 1",
       icon: "/images/icon/web-icon.svg",
-      link: "https://lscf-central.vercel.app/"
+      link: "https://lscf-coredigital.vercel.app/"
     },
      {
       type: "website",
