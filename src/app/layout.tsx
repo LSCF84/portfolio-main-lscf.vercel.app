@@ -3,7 +3,7 @@ import { Bricolage_Grotesque } from "next/font/google";
 import "./globals.css";
 import Header from "./components/layout/header";
 import Footer from "./components/layout/footer";
-// 1. IMPORTACIÓN CORRECTA
+// Importar el componente del banner de cookies
 import CookieConsentBanner from "@/components/core/CookieConsentBanner"; 
 
 const bricolageGrotesque = Bricolage_Grotesque({
@@ -27,7 +27,7 @@ export default function RootLayout({
         <Header />
         {children}
         <Footer/>
-        {/* 2. COLOCACIÓN CORRECTA */}
+        {/* Colocar el banner aquí para que aparezca en todas las páginas */}
         <CookieConsentBanner /> 
       </body>
     </html>
