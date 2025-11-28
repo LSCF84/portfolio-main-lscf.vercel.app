@@ -1,6 +1,9 @@
 import Link from 'next/link';
 import type { Metadata } from 'next';
 
+// Clave utilizada para el almacenamiento local del consentimiento
+const CONSENT_KEY = 'cookie_consent_lscf_main'; 
+
 // --- METADATA ---
 export const metadata: Metadata = {
   title: 'Política de Cookies | LSCF Development Hub',
