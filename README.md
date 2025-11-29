@@ -94,4 +94,4 @@ Si tienes alguna pregunta, oportunidad de colaboración o simplemente quieres sa
 
 ## 📝 Licencia
 
-Este proyecto está bajo la licencia **[. MIT, ]**.
+Este proyecto está bajo la licencia **MIT**.
