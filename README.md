@@ -1,8 +1,10 @@
-# 🌐 Portfolio Personal de LSCF84
+# 🌐 Portfolio Personal (Main)
 
 > "Donde la pasión por el desarrollo se encuentra con la creatividad."
 
 Este repositorio alberga mi **Portfolio Personal**, una colección viva de mis proyectos, habilidades y experiencia profesional. Sirve como mi tarjeta de presentación digital, mostrando mi capacidad para desarrollar soluciones web y de software de principio a fin.
+
+https://central-lscf.vercel.app/imagenes/portfolio-main-lscf.vercel.app.png
 
 ---
 
@@ -23,18 +25,16 @@ Este sitio web está diseñado para mostrar mis mejores trabajos, las tecnologí
 
 Este proyecto ha sido construido utilizando las siguientes tecnologías (ajusta esta lista según lo que realmente hayas usado):
 
-**Frontend:**
-* **[RELLENAR: Ej. React / Vue.js / Vanilla JS]**
-* **[RELLENAR: Ej. HTML5 & CSS3]**
-* **Tailwind CSS** (Según el código que proporcionaste)
-* **Bootstrap Icons** (Según el código que proporcionaste)
+* **React / Next.js** (Marco de desarrollo)
+* **HTML5 & CSS3** (Estructura y Estilo base)
+* **Tailwind CSS** (Framework de estilos CSS utilitario)
+* **Bootstrap Icons** (Conjunto de iconos)
 
 **Despliegue y Hosting:**
-* **[RELLENAR: Ej. Netlify / Vercel / GitHub Pages]**
+* **[Vercel / GitHub Pages]**
 
 **Otras Herramientas:**
 * Git / GitHub
-* **[RELLENAR: Ej. Herramientas de build, como Webpack o Vite]**
 
 ---
 
@@ -88,10 +88,10 @@ El portfolio estará disponible en `http://localhost:[RELLENAR PUERTO]`.
 Si tienes alguna pregunta, oportunidad de colaboración o simplemente quieres saludar, no dudes en contactarme:
 
 * **GitHub:** [@LSCF84](https://github.com/LSCF84)
-* **Correo Electrónico:** l.sergio.camacho.fernandez@gmail.com (Según tu código)
+* **Correo Electrónico:** l.sergio.camacho.fernandez@gmail.com
 
 ---
 
 ## 📝 Licencia
 
-Este proyecto está bajo la licencia **[RELLENAR: Ej. MIT, GPL, Unlicensed, etc.]**.
+Este proyecto está bajo la licencia **[. MIT, ]**.
